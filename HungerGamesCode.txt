@@ -1,0 +1,144 @@
+#include <iostream>
+
+int main() {
+
+std::cout << "~======================================~\n";
+std::cout << "Welcome to the 76th Annual Hunger Games!\n";
+std::cout << "~======================================~\n\n";
+
+// Timer code
+for (int timer = 10; timer > 0; timer--) {
+  std::cout << timer << "\n";
+  }
+std::cout << "\nGO!\n\n";
+
+//starter question
+std::cout << "The horn blows, what is your first move?\n\n";
+std::cout << "1) Jump off the pedastal and run immediately towards the cornocopia.\n";  
+std::cout << "2) Turn around and run straight to the woods\n";
+std::cout << "3) Drop the gloves and fight people with bare hands.\n\n";
+
+int answerA;
+std::cin >> answerA;
+
+if (answerA == 1) {std::cout << "\nYou reach the cornocopia and see an array of supplies weapons and supplies.\n\n";
+  std::cout << "What will you do?\n\n";
+  std::cout << "1) Grab a bow\n";
+  std::cout << "2) Grab a sword\n\n";
+ 
+  int answerA1;
+  std::cin >> answerA1;
+
+  if (answerA1 == 1) {
+      std::cout << "\nYou grab the bow Katniss Everdeen style and start blasting, most of the tributes have died in this bloodbath, you see the last tribute\n\n";
+
+      std::cout << "Will you\n\n";
+      std::cout << "1) Shoot the last tribute to claim victory\n";
+      std::cout << "2) Spare them and stick it to the Capitol\n\n";
+  
+      int answerA12;
+      std::cin >> answerA12;
+
+      if (answerA12 == 1) {
+      std::cout << "\nYou shoot the last tribute and win..... but at what cost?\n";}
+      else if (answerA12 == 2) {
+      std::cout << "\nYou spare the last tribute and refuse to conform to the Capitol, starting a long journey of liberation for the districts!\n";
+      }
+      }
+      else if (answerA1 == 2){std::cout << "\nYou grab the sword to show off your blade skills, most of the tributes have died in this bloodbath, you see the last other tribute\n\n";
+      std::cout << "Will you\n\n";
+      std::cout << "1) Turn the last tribute into sashimi and claim victory\n";
+      std::cout << "2) Spare them and stick it to the Capitol\n\n";
+  
+      int answerA13;
+    std::cin >> answerA13;
+
+    if (answerA13 == 1) {std::cout << "\nYou turn into prime Bruce Lee and turn the other tribute into a california roll..... delicious victory\n";
+    return 0;}
+    else if (answerA13 == 2) {std::cout << "\nYou spare the last tribute and refuse to conform to the Capitol, starting a long journey of liberation for the districts!\n";
+    return 0;}
+
+
+  }
+ }
+else if (answerA == 2) {std::cout << "\nYou run into the treeline until you reach a river.\n\n";
+  std::cout << "What will you do?\n\n";
+  std::cout << "1) Swim through the river\n";
+  std::cout << "2) Find a way around the river\n\n";
+
+  int answerA2;
+  std::cin >> answerA2;
+
+  if (answerA2 == 1) {std::cout << "You swim through the river and a shark just ate your ass.... better luck next time :(\n";
+  return 0;}
+  else if (answerA2 == 2) {std::cout << "You find a way around the river but become exhausted and decide to take a nap\n\n";}
+
+  else if (answerA2 != 1 && answerA2 != 2) {std::cout << "Invalid Response";}
+  
+  std::cout << "Will you\n\n"; 
+  std::cout << "1) Sleep under a tree and wait until everyone just kills eachother\n";
+  std::cout << "2) Fight the urge to sleep and keep pushing\n\n";
+
+  int answerA21;
+  std::cin >> answerA21;
+
+  if (answerA21 == 1) {std::cout << "You wake up after 10 hours to find out that wou won the games! Coward\n\n";
+  return 0;}
+  else if (answerA21 == 2) {std::cout << "You fight the urge to sleep until you collapse and die.... nice\n\n";
+  return 0;}
+  else if (answerA21 != 1 && answerA21 != 2) {std::cout << "Invalid Response";
+  return 0;}
+}
+
+  
+
+
+
+else if (answerA == 3) {std::cout << "\nYou immediately run towards the closest person to you and proceed with hand to hand combat, until someone grabs you from behind\n\n";
+  std::cout << "What will you do?\n\n";
+  std::cout << "1) Punch them in the face\n";
+  std::cout << "2) Kick them in the balls\n\n";}
+
+  int answerA31;
+  std::cin >> answerA31;
+
+  if (answerA31 == 1) {std::cout << "You punched them in the head with poor technique, your hand is now broken. People see this weakness and gang up on you..... better luck next time\n\n";
+  return 0;}
+  else if (answerA31 == 2) {std::cout << "You kicked them in the balls (wuss move but it's ok).\n\n";
+  std::cout << "People saw this cheap shot and decide to pick on you next. What do you do next?\n\n";
+  
+  std::cout << "1) Give up and let the team of 10 other tributes kill you\n";
+  std::cout << "2) Channel your inner chi and best all of them with the power of Kung Fu\n\n";}
+
+  int answerA32;
+  std::cin >> answerA32;
+
+    if (answerA32 == 1) {std::cout << "You give up and are now dead.... sad ending....\n\n";
+    
+    return 0;}
+     else if (answerA32 == 2) {std::cout << "You channel your inner Bruce Lee and singehandedly win the Hunger Games through sheer martial prowess.... NICE!\n\n";
+     return 0;}
+     else if (answerA32 != 1 && answerA31 != 2) {std::cout << "Invalid Response\n";
+     return 0;}
+  
+  
+  
+
+
+
+
+else if (answerA != 1 && answerA != 2 && answerA != 3) {std::cout << "\nInvalid Response\n\n";}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
